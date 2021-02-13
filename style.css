@@ -1,0 +1,180 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.padding {
+    padding: 5px 10px 0 10px;
+}
+#history {
+    font-size: 1.1rem;
+    padding: 0 10px;
+    letter-spacing: 5px;
+}
+#main {
+    font-size: 3rem;
+    color: #000;
+    font-weight: 600;
+    padding: 0 10px;
+}
+.history-screen {
+    height: 30%;
+}
+.main-screen {
+    height: 70%;
+}
+.top {
+    display: flex;
+    align-items: stretch;
+}
+.screen {
+    height: 100px;
+}
+.screen input {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background: transparent;
+    text-align: right;
+}
+.window {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.window > div {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2rem;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#calculator {
+    width: 400px;
+    border: 1px solid #000;
+    box-shadow: 0 0 15px 2px rgba(255, 255, 255, 0.2);
+    background: #f2f2f2;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.fanction1{
+    display: flex;
+    font-size: 1rem;
+    color: #000;
+}
+.fanction1 div{
+    margin-left: 6%;
+}
+.button {
+    width: 25%;
+    line-height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button.close:hover {
+    background: #f00;
+}
+.disable-button{
+    color: #b8b8b8;
+}
+.sub-menu .button {
+    line-height: 3rem;
+}
+.main-menu {
+    background: #e6e6e6;
+}
+.number {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.number:active {
+    font-size: 1.4rem;
+}
+.button:hover, .button-top:hover {
+    background: #cfcfcf;
+    cursor: pointer;
+}
+.button:active {
+    background: #b8b8b8;
+}
+.equals:hover {
+    background: #1883d7;
+}
+.equals:active {
+    background: rgb(67, 152, 207);
+    background: rgba(67, 152, 207, 0.79);
+}
+.top .icon {
+    width: 16px;
+    height: 16px;
+}
+.type {
+    display: flex;
+}
+.column {
+    display: flex;
+    align-items: center;
+}
+.history {
+    flex-grow: 6;
+    justify-content: flex-end;
+}
+.button-top {
+    display: flex;
+    padding: 10px 15px;
+    pointer-events: none;
+}
+.menu {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.image:active img {
+    width: 24px;
+    height: 24px;
+}
+.sign:active {
+    font-size: 0.9rem;
+}
+.dot {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+.calculator-menu:hover {
+    background: #cfcfcf;
+    cursor: pointer;
+}
+.calculator-chosen {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    cursor: default;
+    padding: 10px 12px;
+    font-weight: 900;
+}
+.memory {
+    display: flex;
+    font-size: 0.75rem;
+    color: #757575;
+}
+.memory > div:hover {
+    color: #000;
+    background: #cfcfcf;
+    cursor: pointer;
+}
+.memory > div {
+    flex-grow: 1;
+    text-align: center;
+    line-height: 2rem;
+    pointer-events:none;
+}
+#plus-minus {
+    pointer-events: none;
+}
